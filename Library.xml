@@ -1,0 +1,127 @@
+
+<!--  Our one element xml document, describing one instance of a Library object -->
+
+<carRental>      <!-- the one libraryobject containing all the info -->
+
+<!-- an attribute,named,     of the type  --> 
+	<carRentalID>123</carRentalID>
+	<name>Welcome to RentMe</name>
+	<city>london</city>
+	<address>trustworthyalley</address>
+	<postcode>w11</postcode>
+
+	<car>                                       <!-- An Instance of a car -->
+		<carID>12345</carID>              <!-- And its attributes -->
+		<make>BMW</make>
+		<model> 3 Series </model>
+		<location>london</location>
+		<type>saloon</type> 
+		<islend>001</islend> <!-- REMOVE ALL -->
+	</car>
+	
+	<car>                                       <!-- An Instance of a car -->
+		<carID>12344</carID>              <!-- And its attributes -->
+		<make>BMW</make>
+		<model> 5 Series </model>
+		<location>london</location>
+		<type>saloon</type> 
+		<islend>null</islend>
+	</car>
+	<car>                                       <!-- An Instance of a car -->
+		<carID>21111</carID>              <!-- And its attributes -->
+		<make>Mercedes</make>
+		<model> C class </model>
+		<location>london</location>
+		<islend>null</islend>
+	</car>
+	<car>                                       <!-- An Instance of a car -->
+		<carID>12554</carID>              <!-- And its attributes -->
+		<make>Ford</make>
+		<model> Fiesta </model>
+		<location>london</location>
+		<islend>null</islend>
+	</car>
+	<car>                                       <!-- An Instance of a car -->
+		<carID>18944</carID>              <!-- And its attributes -->
+		<make>Vaxuall</make>
+		<model> Astra </model>
+		<location>london</location>
+		<islend>null</islend>
+	</car>
+	<car>                                       <!-- An Instance of a car -->
+		<carID>14444</carID>              <!-- And its attributes -->
+		<make>Volkswagen</make>
+		<model> Polo </model>
+		<location>london</location>
+		<islend>null</islend>
+	</car>
+	<car>                                       <!-- An Instance of a car -->
+		<carID>22344</carID>              <!-- And its attributes -->
+		<make>Nissan</make>
+		<model> Micra </model>
+		<location>london</location>
+		<islend>null</islend>
+	</car>
+	<car>                                       <!-- An Instance of a car -->
+		<carID>12856</carID>              <!-- And its attributes -->
+		<make>Citren</make>
+		<model> C5 </model>
+		<location>london</location>
+		<islend>null</islend>
+	</car>
+	<car>                                       <!-- An Instance of a car -->
+		<carID>14754</carID>              <!-- And its attributes -->
+		<make>Porsche</make>
+		<model> 911 </model>
+		<location>london</location>
+		<islend>null</islend>
+	</car>
+	<car>                                       <!-- An Instance of a car -->
+		<carID>16944</carID>              <!-- And its attributes -->
+		<make>Skoda</make>
+		<model> Octovia </model>
+		<location>london</location>
+		<islend>null</islend>
+	</car>
+	
+	
+	
+	
+<!-- This is where Lending starts -->
+	<lending>
+		<lendid>001</lendid>
+		<dateOfStart>2011</dateOfStart>
+		<dateOfEnd>2012</dateOfEnd>
+		<periodOfRent>5 Days</periodOfRent>
+		<carID>12345</carID>
+	</lending>
+	
+	<lending>
+		<lendid>002</lendid>
+		<dateOfStart>2011</dateOfStart>
+		<dateOfEnd>2012</dateOfEnd>
+		<periodOfRent>2 Days</periodOfRent>
+		<carID></carID>
+	</lending>
+	
+<!-- This is where employee starts -->	
+	<customer>
+		<fName> Jonni Asfaha</fName>
+		<carID>12345</carID>
+	</customer>
+
+
+<!-- This is where customer starts -->
+	<catalog>
+		<location> IT WORKS MOFO </location>
+	</catalog>
+	
+	
+	<reservation>
+		<reservationID></reservationID>
+		
+	
+	</reservation>
+</carRental>     <!-- closing the one libraryobject conatining alle the info -->
+
+
